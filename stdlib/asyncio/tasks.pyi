@@ -441,6 +441,7 @@ elif sys.version_info >= (3, 12):
         *,
         name: str | None = None,
         context: Context | None = None,
+        eager_start: bool = ...
     ) -> Task[_T_co]: ...
 
 if sys.version_info >= (3, 12):
